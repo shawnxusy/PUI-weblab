@@ -1,0 +1,19 @@
+lecture-17
+
+How does referencing something on an object work?
+
+eg call obj.name
+
+1. Looks upon on obj itself
+2. Then look to obj.__proto__
+3. Then look to obj.__proto__.__proto__
+
+
+This
+Find what "this" is
+
+When referencing an unqualified name
+
+Use prototype to do inheritance
+
+Container has a option "clip"??

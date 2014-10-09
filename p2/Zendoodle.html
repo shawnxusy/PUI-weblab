@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="zenUtils.js"></script>
+        <script src="doodle-library.js"></script>
+        <script src="zenDoodle.js"></script>
+        <script src="base64.js"></script>
+        <script src="canvas2image.js"></script>
+        <link type="text/css" href="tinycanvas.css" rel="stylesheet">
+    </head>
+    <body>
+    	<div class="canvas">
+	        <canvas id="myCanvas" width="700" height="515">
+	        </canvas>
+        </div>
+        <div class="draw-operations">
+            <div class="zen-tools">
+                <a onclick="drawZenLine()">
+                    <img src="img/brush_icon.png" id="brush">
+                    <div class="illustration">
+                    Zen<br>Brush
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="drawMountain()">
+                    <img src="img/mountain_icon.png" id="mountain">
+                    <div class="illustration">
+                    Zen<br>Mount
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="drawBird()">
+                    <img src="img/bird/bird_01.png" id="bird">
+                    <div class="illustration">
+                    Zen<br>Bird
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="drawRandom()">
+                    <img src="img/feelgood.png" id="feelgood">
+                    <div class="illustration">
+                    Feeling<br>Good
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="drawText()">
+                    <img src="img/text/text_1.png" id="feelgood">
+                    <div class="illustration">
+                    古詩詞
+                    </div>
+                </a>
+            </div>
+         </div>
+         <div class="canvas-operations">
+            <div class="zen-tools">
+                <a onclick="undoLast()">
+                    <img src="img/undo.png" id="undo">
+                    <div class="illustration">
+                    Undo
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="redoLast()">
+                    <img src="img/redo.png" id="redo">
+                    <div class="illustration">
+                    Redo
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="cleanCanvas()">
+                    <img src="img/clean.png" id="clean">
+                    <div class="illustration">
+                    Clean <br> Canvas
+                    </div>
+                </a>
+            </div>
+            <div class="zen-tools">
+                <a onclick="saveCanvas()">
+                    <img src="img/clean.png" id="save">
+                    <div class="illustration">
+                    Save <br> Canvas
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="announcement">
+            <h4> I have a current bug with undo/redo for all mountains/birds/luckies/text, will figure out after finishing UCRE</h4>
+            <a href="https://github.com/shawnxusy/zen-doodle"><h4> Fork it if you like it! (Github) </h4></a>
+        </div>
+    </body>
+</html>
+</html>

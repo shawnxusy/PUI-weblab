@@ -1,0 +1,55 @@
+.game-board {
+	position: relative;
+	width: 690px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	color: #fffffe;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 200;
+}
+
+body {
+	margin: 0;
+	background-color: #bd3a3a;
+	font-family: "Raleway","proxima-nova","Arial","sans-serif";
+}
+
+.extras {
+	text-align: center;
+}
+
+
+/* This button was generated using CSSButtonGenerator.com */
+.solver {
+	background-color:transparent;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#cf2514;
+	font-family: "Raleway","proxima-nova","Arial","sans-serif";
+	font-size:19px;
+	height:56px;
+	line-height:50px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+}

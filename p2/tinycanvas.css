@@ -1,0 +1,47 @@
+.canvas {
+	text-align: center;
+	margin-top: 100px;
+}
+
+body {
+	background-image: url("img/bkg/bkg_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+#myCanvas {
+	background-image: url("img/bkg/canvas_bkg.jpg");
+}
+
+.draw-operations {
+	position: absolute;
+	top: 100px;
+	left: calc(50% - 410px);
+	width: 50px;
+	font-size: 13px;
+	text-align: center;
+	font-family: palatino;
+}
+
+.canvas-operations {
+	position: absolute;
+	top: 100px;
+	left: calc(50% + 360px);
+	width: 50px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.zen-tools {
+	background-color: rgba(245,231,197,0.5);
+	margin-bottom: 10px;
+}
+
+.zen-tools img {
+	width: 100%;
+}
+
+.announcement {
+	text-align: center;
+	color: #fa8a8a;
+}

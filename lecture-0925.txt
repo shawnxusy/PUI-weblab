@@ -1,0 +1,37 @@
+lecture-0925
+
+If you look for "foo" in a code, where does it go for?
+- Local var (var foo) in the current function (not for or if or anything else)
+- Then the mother function, mother mother function
+- Eventually window (global)
+
+If you type "foo.x", where does it go for "x"?
+- First find foo, see if it has 'x'
+- Check prototype of foo, then prototype of prototype of foo ... (eventually Object)
+- Return undefined
+
+
+
+//Something tricky about inheritance and prototype
+var A = function() {
+	dosth()
+}
+A.prototype.usefulfunc() = function() {
+	
+}
+
+Now if we have:
+var B = function() {
+	dosthsimilartoA()
+}
+B.prototype = A
+
+var b = new B()
+b.usefulfunc()  //WONT WORK!
+
+Because:
+since b doesnt have usefulfunc() func, it will go up the prototype chain, and call B.prototype, which equals to A
+However, A is a function rather than an prototype object, and does not have usefulfunc() function
+
+Right way to do it would be having 
+B.prototype = new A() //which returns the prototyped object
