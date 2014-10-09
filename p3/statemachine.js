@@ -95,47 +95,5 @@ function StateMachine(description, elementToAttach) {
 		updateState(event, 'timertick30ms');
 	});
 
-	// // Add event listeners to the element. OMG do I have to add them one by one?
-	// elementToAttach.addEventListener('mousedown', function() {
-	// 		updateState(event, 'mousedown');
-	// 	}, false
-	// );
-
-	// elementToAttach.addEventListener('mouseup', function() {
-	// 		updateState(event, 'mouseup');
-	// 	}, false
-	// );
-
-	// elementToAttach.addEventListener('click', function() {
-	// 		updateState(event, 'click');
-	// 	}, false
-	// );	
-
-	// elementToAttach.addEventListener('mousemove', function() {
-	// 		updateState(event, 'mousemove');
-	// 	}, false
-	// );	
-
-	// elementToAttach.addEventListener('mouseenter', function() {
-	// 		updateState(event, 'mouseenter');
-	// 	}, false
-	// );	
-
-	// elementToAttach.addEventListener('mouseleave', function() {
-	// 		updateState(event, 'mouseleave');
-	// 	}, false
-	// );	
-
-	// elementToAttach.addEventListener('keydown', function() {
-	// 		updateState(event, 'keydown');
-	// 	}, false
-	// );	
-
-	// // Apparently, that is true...
-	// elementToAttach.addEventListener('timertick30ms', function() {
-	// 		updateState(event, 'timertick30ms');
-	// 	}, false
-	// );	
-
 }
 
